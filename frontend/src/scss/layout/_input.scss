@@ -1,0 +1,36 @@
+input {
+  background: $color__background--dark;
+  padding: 0 20px;
+  height: 40px;
+  font-size: $font-size;
+  font-family: $font-family;
+  color: $color__text;
+  border: 2px solid $color__background--dark;
+  transition: $transition;
+
+
+  &:focus {
+    outline: none;
+    border: 1px solid $color__accent--green;
+  }
+}
+
+button {
+  background: $color__accent--red;
+  border: 1px solid $color__accent--red;
+  height: 40px;
+  width: 300px;
+  max-width: 100%;
+  font-size: $font-size;
+  font-family: $font-family;
+  cursor: pointer;
+  transition: $transition;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    opacity: .7;
+  }
+}

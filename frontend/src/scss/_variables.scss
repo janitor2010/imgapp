@@ -1,0 +1,18 @@
+$color__background: #282c34;
+$color__background--dark: #22252c;
+$color__text: #abb2a0;
+$color__text--dark: #22252c;
+$color__accent--green: #72ca8e;
+$color__accent--blue: #60afdc;
+$color__accent--red: #aa3f42;
+$color__accent--yellow: #f4c076;
+$color__accent--orange: #d38346;
+$color__accent: $color__accent--blue;
+$color__link: #abb2a0;
+$color__link--active: $color__accent;
+
+$font-family: 'IBM Plex Mono', monospace;
+
+$font-size: 16px;
+
+$transition: .3s all ease-out;
